@@ -9,6 +9,8 @@
   <packageId>Witek.FabricorsCanRepairMechs</packageId>
   <description>
 	Allows Fabricors to repair mechs
+  
+  https://github.com/witks/RimWorld-FabricorsCanRepairMechs
   </description>
   <modDependencies>
     <li>
@@ -19,10 +21,11 @@
     </li>
   </modDependencies>
   <loadAfter>
-	<li>brrainz.harmony</li>
+	  <li>brrainz.harmony</li>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Biotech</li>
   </loadAfter>
+  <loadBefore>
+	  <li>pyro.tieredmechs</li>
+  </loadBefore>
 </ModMetaData>
-
-
