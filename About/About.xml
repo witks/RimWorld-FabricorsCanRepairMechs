@@ -10,9 +10,16 @@
   </supportedVersions>
   <packageId>Witek.FabricorsCanRepairMechs</packageId>
   <description>
-	Allows Fabricors to repair mechs
-  
-  https://github.com/witks/RimWorld-FabricorsCanRepairMechs
+Allows Fabricors to repair mechs.
+
+- Fabricors repair colony mechs that have auto-repair enabled.
+- A Fabricor never repairs itself.
+- A Fabricor never repairs a mech that is currently repairing something.
+- A damaged Fabricor does not repair other Fabricors (no back-and-forth repairs).
+
+Requires Biotech and Harmony.
+
+https://github.com/witks/RimWorld-FabricorsCanRepairMechs
   </description>
   <modDependencies>
     <li>
@@ -21,13 +28,18 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
       <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
   </modDependencies>
   <loadAfter>
-	  <li>brrainz.harmony</li>
+    <li>brrainz.harmony</li>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Biotech</li>
   </loadAfter>
   <loadBefore>
-	  <li>pyro.tieredmechs</li>
+    <li>Mlie.ReinforcedMechanoid2</li>
+    <li>pyro.tieredmechs</li>
   </loadBefore>
 </ModMetaData>

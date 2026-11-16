@@ -1,9 +1,7 @@
 **/bin/
-**/obj/Release/
-**/obj/*.json
-**/obj/*.props
-**/obj/*.targets
-**/obj/*.cache
+**/obj/
 
 # Built by Source/FabricorsCanRepairMechs (dotnet build -c Release)
 */Assemblies/
+
+.vs/
